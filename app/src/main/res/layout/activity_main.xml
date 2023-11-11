@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_grey">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/mainToolbar"
+            layout="@layout/toolbar"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/card_frame"
+            android:layout_marginTop="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/white_rounded_corner"
+                    android:orientation="vertical">
+
+                    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+                        android:id="@+id/frame"
+                        android:layout_width="match_parent"
+                        android:layout_height="145dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        app:rotation_degrees="15.5"
+                        tools:context=".MyActivity"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/carpi"
+                            android:background="@color/light_grey"
+                            android:padding="10dp"
+                            android:src="@drawable/cross"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageButton
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/recycle"
+                            android:background="@color/light_grey"
+                            android:padding="10dp"
+                            android:src="@drawable/yenilee"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageButton
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/heart"
+                            android:background="@color/light_grey"
+                            android:padding="10dp"
+                            android:src="@drawable/heart"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageButton
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/star"
+                            android:background="@color/light_grey"
+                            android:padding="10dp"
+                            android:src="@drawable/star"
+                            android:scaleType="fitCenter"/>
+
+                        <ImageButton
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:id="@+id/lightning"
+                            android:background="@color/light_grey"
+                            android:padding="10dp"
+                            android:src="@drawable/lightning"
+                            android:scaleType="fitCenter"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/noCardsBanner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="There's no one new around one"
+                android:visibility="invisible"/>
+
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

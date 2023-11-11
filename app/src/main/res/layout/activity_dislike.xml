@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LikeActivity"
+    android:background="@color/light_grey"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corner_layout"
+        android:rotation="-20">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dislike"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="0dp"
+            android:background="@drawable/baseline_thumb_down_24"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/light_grey"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/carpi"
+            android:background="@color/light_grey"
+            android:padding="10dp"
+            android:src="@drawable/cross"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/recycle"
+            android:background="@color/light_grey"
+            android:padding="10dp"
+            android:src="@drawable/yenilee"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/heart"
+            android:background="@color/light_grey"
+            android:padding="10dp"
+            android:src="@drawable/heart"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/star"
+            android:background="@color/light_grey"
+            android:padding="10dp"
+            android:src="@drawable/star"
+            android:scaleType="fitCenter"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/lightning"
+            android:background="@color/light_grey"
+            android:padding="10dp"
+            android:src="@drawable/lightning"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+</LinearLayout>

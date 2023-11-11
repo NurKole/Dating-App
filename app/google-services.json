@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1045085230529",
+    "firebase_url": "https://datingapp-2633f-default-rtdb.firebaseio.com",
+    "project_id": "datingapp-2633f",
+    "storage_bucket": "datingapp-2633f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045085230529:android:22926719876a7292e78b40",
+        "android_client_info": {
+          "package_name": "com.example.datingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwSlR3mMfJ6wnyo8pxf29e-fVsEfGU0Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045085230529:android:f2159f3b2adfd088e78b40",
+        "android_client_info": {
+          "package_name": "com.example.loveanddate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwSlR3mMfJ6wnyo8pxf29e-fVsEfGU0Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

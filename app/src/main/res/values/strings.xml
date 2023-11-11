@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Love And Date</string>
+    <string name="login_page">Login Page</string>
+    <string name="Select_Age">Age</string>
+    <string name="Select_Gender">Gender</string>
+    <string name="edit_gallery">edit gallery</string>
+    <string name="name">Name</string>
+    <string name="interested">I\'m interested in</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="gallery">Gallery</string>
+    <string name="done">Done</string>
+</resources>
